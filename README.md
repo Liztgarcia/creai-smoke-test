@@ -10,17 +10,6 @@ Fecha de creación: 2026-06-24
 
 # Estructura del proyecto
 
-creai-smoke-tests/
-├── cypress/
-│   ├── e2e/
-│   │   └── smoke/
-│   │       ├── 01_page_load.cy.js        # Carga y estabilidad inicial
-│   │       ├── 02_key_elements.cy.js     # UI y componentes core
-│   │       ├── 03_navigation.cy.js       # Flujos y enlaces
-│   │       └── 04_mobile_viewport.cy.js  # Responsive Design
-│   └── support/
-├── cypress.config.js
-├── package.json
-└── README.md
+<img width="680" height="368" alt="image" src="https://github.com/user-attachments/assets/5f743529-60fc-4f98-8494-b3ad88877da1" />
 
 
