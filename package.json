@@ -1,0 +1,20 @@
+{
+  "name": "creai-smoke-tests",
+  "version": "1.0.0",
+  "description": "Smoke test suite for creai.mx",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:smoke": "cypress run --spec 'cypress/e2e/smoke/**/*.cy.js'",
+    "cy:run:mobile": "cypress run --spec 'cypress/e2e/smoke/04_mobile_viewport.cy.js'",
+    "cy:run:headed": "cypress run --headed --no-exit"
+  },
+ 
+  "keywords": [],
+  "author": "QA Engineer: Lizeth Garcia",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.18.0"
+  }
+}
